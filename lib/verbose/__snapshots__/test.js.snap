@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`verbose add the function arguments to the error message async 1`] = `"Something must have gone horribly wrong later. Arguments: \\"one\\", \\"two\\""`;
+
+exports[`verbose add the function arguments to the error message sync 1`] = `"Something must have gone horribly wrong. Arguments: \\"one\\", \\"two\\""`;

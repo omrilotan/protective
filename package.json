@@ -1,0 +1,42 @@
+{
+  "name": "protective",
+  "version": "0.0.0",
+  "description": "🥽 Runtime protective gear",
+  "keywords": [
+    "safe",
+    "runtime",
+    "protection",
+    "protect",
+    "runtime",
+    "🥽"
+  ],
+  "homepage": "https://github.com/omrilotan/protective#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrilotan/protective.git"
+  },
+  "author": "omrilotan",
+  "license": "Unlicense",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "type": "module",
+  "types": "./src/types.d.ts",
+  "main": "./index.js",
+  "module": "./index.js",
+  "browser": "./index.js",
+  "sideEffects": false,
+  "scripts": {
+    "test": "jest -c jest.config.js",
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.7",
+    "@lets/wait": "^2.0.2",
+    "babel-jest": "^27.4.5",
+    "eslint-plugin-log": "^1.2.7",
+    "jest": "^27.4.5",
+    "regenerator-runtime": "^0.13.9",
+    "standard": "^16.0.4"
+  }
+}
